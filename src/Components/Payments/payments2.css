@@ -1,0 +1,12 @@
+.cartItemsContainer{
+    overflow-y: scroll;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    min-height: 40vh;
+    max-height: 87vh;
+    background-color: #000000ba;
+    grid-gap: 25px;
+    padding: 0px 10px;
+    justify-content: center;
+}

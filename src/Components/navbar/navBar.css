@@ -1,0 +1,54 @@
+
+.hidden > div > a{
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: black;
+    height: 31px;
+    width: 63px;
+    text-align: center;    
+}
+
+.navBGImg1{
+    width:33.5%;
+    height:55px;
+    position:absolute;
+    left:-1px;
+    filter:blur(0.5px);
+}
+
+.navBGImg2{
+    width:33.5%;
+    height:55px;
+    position:absolute;
+    left:33.3333%;
+    filter:blur(0.5px);
+}
+.navBGImg3{
+    width:33.5%;
+    height:55px;
+    position:absolute;
+    left:66.66666%;
+    filter:blur(0.5px);
+}
+
+.loginAndReg{
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: black;
+    width: 63px;
+    text-align: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.navCart{
+    outline: none;
+}
+.profileIconBtn{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 15px; */
+}

@@ -1,0 +1,44 @@
+.header
+{
+    position:sticky;
+    top:0;
+    min-height:80px;
+    width:"80%";
+    margin:0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center ;
+    overflow: hidden;
+    background-color: #141414;
+    z-index: 10;
+
+}
+.logo
+{
+    text-transform: uppercase;
+    color: azure;
+    padding-left: 40px;
+    
+}
+.header-links
+{
+    display:flex;
+    list-style: none;
+}
+.header-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    padding: 0px 15px;
+}
+/* .header-link ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 15px;
+} */
