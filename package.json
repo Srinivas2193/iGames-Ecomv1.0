@@ -19,7 +19,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "cart": "concurrently \"npm start\" \"json-server --watch data.json --port 3006\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
